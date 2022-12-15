@@ -59,9 +59,9 @@ h2 {
   color: #FFF;
 }
 
-.movie {
+.games {
   color: #FFF;
-  display: flex;
+  display: -webkit-inline-box;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -74,13 +74,13 @@ h2 {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-.movie .movie-image {
+.games .games-image {
   width: 92px;
   height: 92px;
   margin-right: 1rem;
 }
 
-.movie .movie-image img {
+.games .games-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -88,46 +88,46 @@ h2 {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.movie-informations {
+.games-informations {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.movie-informations .movie-text {
+.games-informations .games-text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.movie-informations .movie-text .rating-favorites {
+.games-informations .games-text .rating-favorites {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.movie-informations .rating, .movie-informations .favorite {
+.games-informations .rating, .games-informations .favorite {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 0.8rem;
 }
 
-.movie-informations .rating img {
+.games-informations .rating img {
   width: 16px;
 }
 
-.movie-informations .favorite img {
+.games-informations .favorite img {
   cursor: pointer;
   transition: all .3s;
   width: 1.2rem;
 }
 
-.movie-informations .favorite img:hover {
+.games-informations .favorite img:hover {
   transform: scale(1.1);
 }
 
-.movie-description {
+.games-description {
   max-width: 50%;
   color: #ACACAC;
   font-weight: 400;
