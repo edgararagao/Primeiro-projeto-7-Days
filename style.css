@@ -29,6 +29,11 @@ h2 {
   margin: 2rem 0;
 }
 
+p {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .input-container {
   background-color: rgba(255, 255, 255, 0.2);
   width: 50%;
@@ -89,7 +94,7 @@ h2 {
 }
 
 .games-informations {
-  display: flex;
+  display: table-caption;
   align-items: center;
   gap: 1rem;
 }
@@ -102,7 +107,7 @@ h2 {
 
 .games-informations .games-text .rating-favorites {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
 }
 
@@ -134,3 +139,5 @@ h2 {
   font-size: 0.85rem;
   line-height: 1.5rem;
 }
+
+
